@@ -12,5 +12,6 @@ var App = Ember.Application.extend({
 });
 
 loadInitializers(App, config.modulePrefix);
+loadInitializers(App, 'emberui');
 
 export default App;
