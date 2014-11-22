@@ -1,4 +1,6 @@
-App.PostController = Ember.ArrayController.extend({
+import Ember from 'ember';
+
+export default Ember.ArrayController.extend({
 	init: function() {
 		this.set('post', Ember.Object.create());
 	},
